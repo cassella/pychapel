@@ -94,6 +94,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     R = main(args.filename, not args.no_viz)
     print(R.sum())
+# CUT HERE END OF LITERALINCLUDE
 
 import testcase
 # contains the general testing method, which allows us to gather output

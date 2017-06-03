@@ -48,6 +48,7 @@ if __name__ == "__main__":                  # Argument parsing
     args = parser.parse_args()
 
     main(args.tsteps, args.particles)
+# CUT HERE END OF LITERALINCLUDE
 
 import testcase
 # contains the general testing method, which allows us to gather output

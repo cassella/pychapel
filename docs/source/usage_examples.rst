@@ -26,7 +26,7 @@ An example of such an application is provided below:
 .. literalinclude:: /examples/test_finance_python_numpy.py
    :language: python
    :linenos:
-   :lines: 1-96
+   :end-before: CUT HERE END OF LITERALINCLUDE
 
 Where the computationally intensive part is the function
 ``quant``. Do note that the specific implementation of the ``quant`` function
@@ -35,7 +35,7 @@ Using ``pych`` this function can be mapped to Chapel by changing:
 
 .. literalinclude:: /examples/test_finance_python_numpy.py
    :language: python
-   :lines: 62-71
+   :pyobject: quant
 
 to:
 
@@ -93,7 +93,7 @@ An example of such an application is provided below:
 .. literalinclude:: /examples/test_python_synthetic_numpy.py
    :language: python
    :linenos:
-   :lines: 1-50
+   :end-before: CUT HERE END OF LITERALINCLUDE
 
 where the time-consuming, computational expensive, and memory hungry portion of
 the application is the data-processing performed in the `simulation` function.
@@ -107,7 +107,7 @@ such as the example below illustrates:
 .. literalinclude:: /examples/test_chapel_synthetic_numpy.py
    :language: python
    :linenos:
-   :lines: 1-50
+   :end-before: CUT HERE END OF LITERALINCLUDE
 
 These two implementations can be executed by the commands::
 
@@ -136,5 +136,5 @@ C-Implementation
 .. literalinclude:: /examples/test_c_synthetic_numpy.py
    :language: python
    :linenos:
-   :lines: 1-68
+   :end-before: CUT HERE END OF LITERALINCLUDE
 
