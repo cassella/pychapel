@@ -3,6 +3,8 @@
 Usage
 =====
 
+Hello, this is the modified version.
+
 pyChapel provides interoperability with Chapel in three forms:
 
 1. Chapel code inlined in Python
